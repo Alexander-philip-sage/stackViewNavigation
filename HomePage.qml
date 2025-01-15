@@ -11,12 +11,12 @@ ColumnLayout {
 
     Button {
         text: "Go to Profile"
-        onClicked: mainWindow.stackView.push(Qt.resolvedUrl("ProfilePage.qml"))
+        onClicked: stackView.push("ProfilePage.qml")
     }
 
     Button {
         text: "Go to Settings"
-        onClicked: mainWindow.stackView.push(Qt.resolvedUrl("SettingsPage.qml"))
+        onClicked: stackView.push("SettingsPage.qml")
     }
 }
 }

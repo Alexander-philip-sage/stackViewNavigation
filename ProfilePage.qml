@@ -8,6 +8,6 @@ Page {
     Button {
         text: "Go Back"
         anchors.centerIn: parent
-        onClicked: mainWindow.stackView.pop()
+        onClicked: stackView.pop()
     }
 }
